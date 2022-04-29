@@ -9,14 +9,14 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
-          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_api_key: "3a5a42c2-9db3-4ea8-b4f7-a92cb919a6b7"
+          heroku_app_name: "ggrivejdid"
+          heroku_email: "jordanmillsfem@gmail.com"
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
           region: "eu"
         env:
-          HD_ids_telegram_token: ${{secrets.telegram_token}}
-          HD_ids_user_ids: ${{secrets.user_ids}}
-          HD_ids_group_ids: ${{secrets.group_ids}}
+          HD_ids_telegram_token: "5394627354:AAEbQJhVFCdwbk3upr3WztgFFxDpXuKGOt4"
+          HD_ids_user_ids: "991043042"
+          HD_ids_group_ids: "991043042"
